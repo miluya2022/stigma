@@ -101,27 +101,36 @@
 
         function initDashboard(electionData, geojson) {
             
-            // 1. 處理 GeoJSON: 只保留目標行政區，並把選舉數據綁定進去
+            // 修正點：改用 ADMIT 來篩選行政區
             const features = geojson.features.filter(f => {
-                return TARGET_DISTRICTS.includes(f.properties.TOWNNAME);
+                return TARGET_DISTRICTS.includes(f.properties.ADMIT);
             });
 
+            // 如果篩選完還是空的，跳出警告 (但這次應該會成功了！)
+            if (features.length === 0) {
+                alert("警告：篩選後沒有任何資料！請確認 GeoJSON 內是否有 汐止區/金山區/萬里區 的資料。");
+            }
+
             features.forEach(f => {
-                const key = f.properties.TOWNNAME + f.properties.VILLNAME;
-                // 將我們算好的數據綁定到地圖形狀的 properties 中，方便後續取用
+                // 修正點：組合 Key 時改用 ADMIT 和 ADMIV
+                // 例如: "汐止區" + "中興里"
+                const key = f.properties.ADMIT + f.properties.ADMIV;
+                
+                // 綁定選舉數據
                 f.properties.electionInfo = electionData[key] || null;
             });
 
-            // 2. 繪製地圖圖層
+            // 繪製地圖圖層
             geojsonLayer = L.geoJSON(features, {
                 style: styleFeature,
                 onEachFeature: onEachFeature
             }).addTo(map);
             
-            // 自動調整地圖視野以涵蓋所有里
-            map.fitBounds(geojsonLayer.getBounds());
+            // 自動調整地圖視野
+            if (features.length > 0) {
+                map.fitBounds(geojsonLayer.getBounds());
+            }
             
-            // 加入圖例
             addLegend();
         }
 
@@ -171,11 +180,14 @@
         // ================= 更新右側面板 =================
         function updatePanel(props) {
             const data = props.electionInfo;
-            const title = props.TOWNNAME + props.VILLNAME;
+            
+            // 修正點：顯示標題時，改用 ADMIT 和 ADMIV
+            const title = props.ADMIT + props.ADMIV; 
             document.getElementById('village-name').innerText = title;
 
             if (!data) {
                 document.getElementById('age-stats').innerHTML = "<p>無此里數據</p>";
+                // 清空圖表... (略，保持原本邏輯)
                 return;
             }
 
