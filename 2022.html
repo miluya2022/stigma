@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2022 汐止金山萬里 選舉地圖分析</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <style>
+        body { margin: 0; padding: 0; display: flex; height: 100vh; font-family: "Microsoft JhengHei", Arial, sans-serif; }
+        
+        /* 左側地圖區 */
+        #map { flex: 2; height: 100%; z-index: 1;}
+        
+        /* 右側資訊面板 */
+        #panel { 
+            flex: 1; 
+            min-width: 350px;
+            padding: 20px; 
+            background: #f8f9fa; 
+            overflow-y: auto; 
+            box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+            z-index: 2;
+        }
+
+        .card { background: white; padding: 15px; border-radius: 8px; margin-bottom: 20px; box-shadow: 0 2px 4px rgba(0,0,0,0.05); }
+        h2 { margin-top: 0; color: #333; border-bottom: 2px solid #007bff; padding-bottom: 10px; }
+        h3 { font-size: 1.1em; color: #666; margin-bottom: 10px; }
+        
+        /* 數據摘要區塊 */
+        .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-bottom: 15px; }
+        .stat-item { text-align: center; background: #e9ecef; padding: 8px; border-radius: 5px; }
+        .stat-val { font-weight: bold; font-size: 1.2em; color: #007bff; }
+        .stat-label { font-size: 0.8em; color: #666; }
+
+        .legend { background: white; padding: 10px; border-radius: 5px; box-shadow: 0 0 5px rgba(0,0,0,0.2); font-size: 12px; }
+        .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.8; }
+    </style>
+</head>
+<body>
+
+    <div id="map"></div>
+    
+    <div id="panel">
+        <h2 id="village-name">請點選地圖上的里</h2>
+        
+        <div class="card">
+            <h3>🗳️ 2022 議員得票分布</h3>
+            <canvas id="voteChart"></canvas>
+        </div>
+
+        <div class="card">
+            <h3>👥 人口年齡結構</h3>
+            <div id="age-stats" class="stat-grid">
+                </div>
+            <canvas id="ageChart"></canvas>
+        </div>
+    </div>
+
+    <script>
+        // ================= 設定區 =================
+        // 候選人代表色 (根據政黨或個人形象)
+        const CANDIDATE_COLORS = {
+            "廖先翔": "#000095", // 國民黨藍
+            "白珮茹": "#548CBB", // 國民黨淺藍
+            "張錦豪": "#1B9431", // 民進黨綠
+            "周雅玲": "#59B96C", // 民進黨淺綠
+            "彭立信": "#00CACA", // 民眾黨(假設色)
+            "黃瑞傳": "#888888", // 無黨/其他
+            "其他": "#CCCCCC"
+        };
+        
+        // 目標行政區 (過濾地圖用)
+        const TARGET_DISTRICTS = ["汐止區", "金山區", "萬里區"];
+
+        // ================= 初始化地圖 =================
+        const map = L.map('map').setView([25.15, 121.65], 12); // 聚焦在汐止/萬里交界
+        
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            attribution: '© OpenStreetMap contributors'
+        }).addTo(map);
+
+        let geojsonLayer;
+        let myChart1 = null; // 圓餅圖實例
+        let myChart2 = null; // 長條圖實例
+
+        // ================= 載入資料 =================
+        Promise.all([
+            fetch('final_data.json').then(r => r.json()),
+            fetch('new_taipei_villages.json').then(r => r.json()) // 請確保你有下載這個檔案
+        ]).then(([data, geojson]) => {
+            initDashboard(data, geojson);
+        }).catch(err => {
+            console.error("讀取失敗:", err);
+            alert("資料讀取失敗！請確認 final_data.json 和 new_taipei_villages.json 是否存在，且您是透過 Local Server (如 VSCode Live Server) 開啟網頁。");
+        });
+
+        function initDashboard(electionData, geojson) {
+            
+            // 1. 處理 GeoJSON: 只保留目標行政區，並把選舉數據綁定進去
+            const features = geojson.features.filter(f => {
+                return TARGET_DISTRICTS.includes(f.properties.TOWNNAME);
+            });
+
+            features.forEach(f => {
+                const key = f.properties.TOWNNAME + f.properties.VILLNAME;
+                // 將我們算好的數據綁定到地圖形狀的 properties 中，方便後續取用
+                f.properties.electionInfo = electionData[key] || null;
+            });
+
+            // 2. 繪製地圖圖層
+            geojsonLayer = L.geoJSON(features, {
+                style: styleFeature,
+                onEachFeature: onEachFeature
+            }).addTo(map);
+            
+            // 自動調整地圖視野以涵蓋所有里
+            map.fitBounds(geojsonLayer.getBounds());
+            
+            // 加入圖例
+            addLegend();
+        }
+
+        // ================= 地圖樣式邏輯 =================
+        function styleFeature(feature) {
+            const info = feature.properties.electionInfo;
+            let fillColor = '#ddd'; // 預設灰色 (無資料)
+
+            if (info) {
+                // 找出最高票候選人
+                let winner = "";
+                let maxVotes = -1;
+                for (const [name, val] of Object.entries(info.candidates)) {
+                    if (val.votes > maxVotes) {
+                        maxVotes = val.votes;
+                        winner = name;
+                    }
+                }
+                fillColor = CANDIDATE_COLORS[winner] || '#888';
+            }
+
+            return {
+                fillColor: fillColor,
+                weight: 1,
+                opacity: 1,
+                color: 'white',
+                dashArray: '3',
+                fillOpacity: 0.7
+            };
+        }
+
+        function onEachFeature(feature, layer) {
+            layer.on({
+                mouseover: (e) => {
+                    const layer = e.target;
+                    layer.setStyle({ weight: 3, color: '#666', dashArray: '', fillOpacity: 0.9 });
+                },
+                mouseout: (e) => {
+                    geojsonLayer.resetStyle(e.target);
+                },
+                click: (e) => {
+                    updatePanel(feature.properties);
+                }
+            });
+        }
+
+        // ================= 更新右側面板 =================
+        function updatePanel(props) {
+            const data = props.electionInfo;
+            const title = props.TOWNNAME + props.VILLNAME;
+            document.getElementById('village-name').innerText = title;
+
+            if (!data) {
+                document.getElementById('age-stats').innerHTML = "<p>無此里數據</p>";
+                return;
+            }
+
+            // 1. 更新選舉圓餅圖
+            const candidates = Object.keys(data.candidates);
+            const votes = candidates.map(c => data.candidates[c].votes);
+            const colors = candidates.map(c => CANDIDATE_COLORS[c] || '#999');
+
+            const ctx1 = document.getElementById('voteChart').getContext('2d');
+            if (myChart1) myChart1.destroy();
+            
+            myChart1 = new Chart(ctx1, {
+                type: 'pie',
+                data: {
+                    labels: candidates,
+                    datasets: [{
+                        data: votes,
+                        backgroundColor: colors
+                    }]
+                },
+                options: {
+                    plugins: { legend: { position: 'right' } }
+                }
+            });
+
+            // 2. 更新年齡結構圖與數據
+            const age = data.age_structure;
+            if (age) {
+                // 更新數字卡
+                const html = `
+                    <div class="stat-item"><div class="stat-val">${age.age_20_39.pct}%</div><div class="stat-label">青年 (20-39)</div></div>
+                    <div class="stat-item"><div class="stat-val">${age.age_65_up.pct}%</div><div class="stat-label">長者 (65+)</div></div>
+                `;
+                document.getElementById('age-stats').innerHTML = html;
+
+                // 畫長條圖
+                const ctx2 = document.getElementById('ageChart').getContext('2d');
+                if (myChart2) myChart2.destroy();
+
+                myChart2 = new Chart(ctx2, {
+                    type: 'bar',
+                    data: {
+                        labels: ['青年 (20-39)', '壯年 (40-64)', '長者 (65+)'],
+                        datasets: [{
+                            label: '人口佔比 (%)',
+                            data: [age.age_20_39.pct, age.age_40_64.pct, age.age_65_up.pct],
+                            backgroundColor: ['#36A2EB', '#FFCE56', '#FF6384']
+                        }]
+                    },
+                    options: {
+                        indexAxis: 'y', // 橫向長條圖
+                        scales: { x: { beginAtZero: true, max: 100 } }
+                    }
+                });
+            } else {
+                document.getElementById('age-stats').innerHTML = "無年齡資料";
+            }
+        }
+
+        function addLegend() {
+            const legend = L.control({position: 'bottomleft'});
+            legend.onAdd = function (map) {
+                const div = L.DomUtil.create('div', 'legend');
+                div.innerHTML += '<strong>最高票候選人</strong><br>';
+                for (const [name, color] of Object.entries(CANDIDATE_COLORS)) {
+                    if (name !== '其他') {
+                        div.innerHTML += `<i style="background:${color}"></i> ${name}<br>`;
+                    }
+                }
+                return div;
+            };
+            legend.addTo(map);
+        }
+
+    </script>
+</body>
+</html>

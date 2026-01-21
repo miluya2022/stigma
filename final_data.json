@@ -1,0 +1,3452 @@
+{
+  "汐止區中興里": {
+    "district": "汐止區",
+    "village": "中興里",
+    "total_valid": 3177,
+    "candidates": {
+      "彭立信": {
+        "votes": 110,
+        "percentage": 3.46
+      },
+      "周雅玲": {
+        "votes": 421,
+        "percentage": 13.25
+      },
+      "廖先翔": {
+        "votes": 849,
+        "percentage": 26.72
+      },
+      "白珮茹": {
+        "votes": 1008,
+        "percentage": 31.73
+      },
+      "黃瑞傳": {
+        "votes": 32,
+        "percentage": 1.01
+      },
+      "張錦豪": {
+        "votes": 757,
+        "percentage": 23.83
+      }
+    },
+    "age_structure": {
+      "population_total": 7786,
+      "age_20_39": {
+        "count": 2275,
+        "pct": 29.22
+      },
+      "age_40_64": {
+        "count": 3497,
+        "pct": 44.91
+      },
+      "age_65_up": {
+        "count": 1186,
+        "pct": 15.23
+      }
+    }
+  },
+  "汐止區仁德里": {
+    "district": "汐止區",
+    "village": "仁德里",
+    "total_valid": 992,
+    "candidates": {
+      "彭立信": {
+        "votes": 25,
+        "percentage": 2.52
+      },
+      "周雅玲": {
+        "votes": 129,
+        "percentage": 13.0
+      },
+      "廖先翔": {
+        "votes": 355,
+        "percentage": 35.79
+      },
+      "白珮茹": {
+        "votes": 240,
+        "percentage": 24.19
+      },
+      "黃瑞傳": {
+        "votes": 24,
+        "percentage": 2.42
+      },
+      "張錦豪": {
+        "votes": 219,
+        "percentage": 22.08
+      }
+    },
+    "age_structure": {
+      "population_total": 1842,
+      "age_20_39": {
+        "count": 502,
+        "pct": 27.25
+      },
+      "age_40_64": {
+        "count": 735,
+        "pct": 39.9
+      },
+      "age_65_up": {
+        "count": 416,
+        "pct": 22.58
+      }
+    }
+  },
+  "汐止區保安里": {
+    "district": "汐止區",
+    "village": "保安里",
+    "total_valid": 752,
+    "candidates": {
+      "彭立信": {
+        "votes": 17,
+        "percentage": 2.26
+      },
+      "周雅玲": {
+        "votes": 90,
+        "percentage": 11.97
+      },
+      "廖先翔": {
+        "votes": 307,
+        "percentage": 40.82
+      },
+      "白珮茹": {
+        "votes": 167,
+        "percentage": 22.21
+      },
+      "黃瑞傳": {
+        "votes": 9,
+        "percentage": 1.2
+      },
+      "張錦豪": {
+        "votes": 162,
+        "percentage": 21.54
+      }
+    },
+    "age_structure": {
+      "population_total": 1702,
+      "age_20_39": {
+        "count": 496,
+        "pct": 29.14
+      },
+      "age_40_64": {
+        "count": 662,
+        "pct": 38.9
+      },
+      "age_65_up": {
+        "count": 328,
+        "pct": 19.27
+      }
+    }
+  },
+  "汐止區保新里": {
+    "district": "汐止區",
+    "village": "保新里",
+    "total_valid": 1141,
+    "candidates": {
+      "彭立信": {
+        "votes": 60,
+        "percentage": 5.26
+      },
+      "周雅玲": {
+        "votes": 144,
+        "percentage": 12.62
+      },
+      "廖先翔": {
+        "votes": 438,
+        "percentage": 38.39
+      },
+      "白珮茹": {
+        "votes": 298,
+        "percentage": 26.12
+      },
+      "黃瑞傳": {
+        "votes": 9,
+        "percentage": 0.79
+      },
+      "張錦豪": {
+        "votes": 192,
+        "percentage": 16.83
+      }
+    },
+    "age_structure": {
+      "population_total": 2920,
+      "age_20_39": {
+        "count": 773,
+        "pct": 26.47
+      },
+      "age_40_64": {
+        "count": 1407,
+        "pct": 48.18
+      },
+      "age_65_up": {
+        "count": 432,
+        "pct": 14.79
+      }
+    }
+  },
+  "汐止區保長里": {
+    "district": "汐止區",
+    "village": "保長里",
+    "total_valid": 2054,
+    "candidates": {
+      "彭立信": {
+        "votes": 67,
+        "percentage": 3.26
+      },
+      "周雅玲": {
+        "votes": 311,
+        "percentage": 15.14
+      },
+      "廖先翔": {
+        "votes": 772,
+        "percentage": 37.59
+      },
+      "白珮茹": {
+        "votes": 462,
+        "percentage": 22.49
+      },
+      "黃瑞傳": {
+        "votes": 17,
+        "percentage": 0.83
+      },
+      "張錦豪": {
+        "votes": 425,
+        "percentage": 20.69
+      }
+    },
+    "age_structure": {
+      "population_total": 4974,
+      "age_20_39": {
+        "count": 1383,
+        "pct": 27.8
+      },
+      "age_40_64": {
+        "count": 2071,
+        "pct": 41.64
+      },
+      "age_65_up": {
+        "count": 675,
+        "pct": 13.57
+      }
+    }
+  },
+  "汐止區信望里": {
+    "district": "汐止區",
+    "village": "信望里",
+    "total_valid": 186,
+    "candidates": {
+      "彭立信": {
+        "votes": 2,
+        "percentage": 1.08
+      },
+      "周雅玲": {
+        "votes": 37,
+        "percentage": 19.89
+      },
+      "廖先翔": {
+        "votes": 57,
+        "percentage": 30.65
+      },
+      "白珮茹": {
+        "votes": 47,
+        "percentage": 25.27
+      },
+      "黃瑞傳": {
+        "votes": 6,
+        "percentage": 3.23
+      },
+      "張錦豪": {
+        "votes": 37,
+        "percentage": 19.89
+      }
+    },
+    "age_structure": {
+      "population_total": 348,
+      "age_20_39": {
+        "count": 82,
+        "pct": 23.56
+      },
+      "age_40_64": {
+        "count": 131,
+        "pct": 37.64
+      },
+      "age_65_up": {
+        "count": 102,
+        "pct": 29.31
+      }
+    }
+  },
+  "汐止區八連里": {
+    "district": "汐止區",
+    "village": "八連里",
+    "total_valid": 583,
+    "candidates": {
+      "彭立信": {
+        "votes": 13,
+        "percentage": 2.23
+      },
+      "周雅玲": {
+        "votes": 104,
+        "percentage": 17.84
+      },
+      "廖先翔": {
+        "votes": 183,
+        "percentage": 31.39
+      },
+      "白珮茹": {
+        "votes": 151,
+        "percentage": 25.9
+      },
+      "黃瑞傳": {
+        "votes": 5,
+        "percentage": 0.86
+      },
+      "張錦豪": {
+        "votes": 127,
+        "percentage": 21.78
+      }
+    },
+    "age_structure": {
+      "population_total": 1038,
+      "age_20_39": {
+        "count": 255,
+        "pct": 24.57
+      },
+      "age_40_64": {
+        "count": 444,
+        "pct": 42.77
+      },
+      "age_65_up": {
+        "count": 230,
+        "pct": 22.16
+      }
+    }
+  },
+  "汐止區北山里": {
+    "district": "汐止區",
+    "village": "北山里",
+    "total_valid": 2921,
+    "candidates": {
+      "彭立信": {
+        "votes": 110,
+        "percentage": 3.77
+      },
+      "周雅玲": {
+        "votes": 504,
+        "percentage": 17.25
+      },
+      "廖先翔": {
+        "votes": 638,
+        "percentage": 21.84
+      },
+      "白珮茹": {
+        "votes": 1025,
+        "percentage": 35.09
+      },
+      "黃瑞傳": {
+        "votes": 26,
+        "percentage": 0.89
+      },
+      "張錦豪": {
+        "votes": 618,
+        "percentage": 21.16
+      }
+    },
+    "age_structure": {
+      "population_total": 5764,
+      "age_20_39": {
+        "count": 1556,
+        "pct": 27.0
+      },
+      "age_40_64": {
+        "count": 2578,
+        "pct": 44.73
+      },
+      "age_65_up": {
+        "count": 1039,
+        "pct": 18.03
+      }
+    }
+  },
+  "汐止區北峰里": {
+    "district": "汐止區",
+    "village": "北峰里",
+    "total_valid": 2074,
+    "candidates": {
+      "彭立信": {
+        "votes": 64,
+        "percentage": 3.09
+      },
+      "周雅玲": {
+        "votes": 260,
+        "percentage": 12.54
+      },
+      "廖先翔": {
+        "votes": 454,
+        "percentage": 21.89
+      },
+      "白珮茹": {
+        "votes": 674,
+        "percentage": 32.5
+      },
+      "黃瑞傳": {
+        "votes": 23,
+        "percentage": 1.11
+      },
+      "張錦豪": {
+        "votes": 599,
+        "percentage": 28.88
+      }
+    },
+    "age_structure": {
+      "population_total": 5148,
+      "age_20_39": {
+        "count": 1557,
+        "pct": 30.24
+      },
+      "age_40_64": {
+        "count": 2113,
+        "pct": 41.05
+      },
+      "age_65_up": {
+        "count": 846,
+        "pct": 16.43
+      }
+    }
+  },
+  "汐止區厚德里": {
+    "district": "汐止區",
+    "village": "厚德里",
+    "total_valid": 2756,
+    "candidates": {
+      "彭立信": {
+        "votes": 84,
+        "percentage": 3.05
+      },
+      "周雅玲": {
+        "votes": 327,
+        "percentage": 11.87
+      },
+      "廖先翔": {
+        "votes": 900,
+        "percentage": 32.66
+      },
+      "白珮茹": {
+        "votes": 904,
+        "percentage": 32.8
+      },
+      "黃瑞傳": {
+        "votes": 11,
+        "percentage": 0.4
+      },
+      "張錦豪": {
+        "votes": 530,
+        "percentage": 19.23
+      }
+    },
+    "age_structure": {
+      "population_total": 7719,
+      "age_20_39": {
+        "count": 2294,
+        "pct": 29.72
+      },
+      "age_40_64": {
+        "count": 3399,
+        "pct": 44.03
+      },
+      "age_65_up": {
+        "count": 1005,
+        "pct": 13.02
+      }
+    }
+  },
+  "汐止區城中里": {
+    "district": "汐止區",
+    "village": "城中里",
+    "total_valid": 2208,
+    "candidates": {
+      "彭立信": {
+        "votes": 61,
+        "percentage": 2.76
+      },
+      "周雅玲": {
+        "votes": 246,
+        "percentage": 11.14
+      },
+      "廖先翔": {
+        "votes": 885,
+        "percentage": 40.08
+      },
+      "白珮茹": {
+        "votes": 517,
+        "percentage": 23.41
+      },
+      "黃瑞傳": {
+        "votes": 33,
+        "percentage": 1.49
+      },
+      "張錦豪": {
+        "votes": 466,
+        "percentage": 21.11
+      }
+    },
+    "age_structure": {
+      "population_total": 4737,
+      "age_20_39": {
+        "count": 1107,
+        "pct": 23.37
+      },
+      "age_40_64": {
+        "count": 2217,
+        "pct": 46.8
+      },
+      "age_65_up": {
+        "count": 669,
+        "pct": 14.12
+      }
+    }
+  },
+  "汐止區大同里": {
+    "district": "汐止區",
+    "village": "大同里",
+    "total_valid": 1326,
+    "candidates": {
+      "彭立信": {
+        "votes": 34,
+        "percentage": 2.56
+      },
+      "周雅玲": {
+        "votes": 168,
+        "percentage": 12.67
+      },
+      "廖先翔": {
+        "votes": 569,
+        "percentage": 42.91
+      },
+      "白珮茹": {
+        "votes": 253,
+        "percentage": 19.08
+      },
+      "黃瑞傳": {
+        "votes": 15,
+        "percentage": 1.13
+      },
+      "張錦豪": {
+        "votes": 287,
+        "percentage": 21.64
+      }
+    },
+    "age_structure": {
+      "population_total": 2912,
+      "age_20_39": {
+        "count": 800,
+        "pct": 27.47
+      },
+      "age_40_64": {
+        "count": 1235,
+        "pct": 42.41
+      },
+      "age_65_up": {
+        "count": 462,
+        "pct": 15.87
+      }
+    }
+  },
+  "汐止區宜興里": {
+    "district": "汐止區",
+    "village": "宜興里",
+    "total_valid": 1388,
+    "candidates": {
+      "彭立信": {
+        "votes": 69,
+        "percentage": 4.97
+      },
+      "周雅玲": {
+        "votes": 228,
+        "percentage": 16.43
+      },
+      "廖先翔": {
+        "votes": 353,
+        "percentage": 25.43
+      },
+      "白珮茹": {
+        "votes": 526,
+        "percentage": 37.9
+      },
+      "黃瑞傳": {
+        "votes": 21,
+        "percentage": 1.51
+      },
+      "張錦豪": {
+        "votes": 191,
+        "percentage": 13.76
+      }
+    },
+    "age_structure": {
+      "population_total": 2919,
+      "age_20_39": {
+        "count": 621,
+        "pct": 21.27
+      },
+      "age_40_64": {
+        "count": 1268,
+        "pct": 43.44
+      },
+      "age_65_up": {
+        "count": 730,
+        "pct": 25.01
+      }
+    }
+  },
+  "汐止區山光里": {
+    "district": "汐止區",
+    "village": "山光里",
+    "total_valid": 1245,
+    "candidates": {
+      "彭立信": {
+        "votes": 26,
+        "percentage": 2.09
+      },
+      "周雅玲": {
+        "votes": 121,
+        "percentage": 9.72
+      },
+      "廖先翔": {
+        "votes": 408,
+        "percentage": 32.77
+      },
+      "白珮茹": {
+        "votes": 445,
+        "percentage": 35.74
+      },
+      "黃瑞傳": {
+        "votes": 9,
+        "percentage": 0.72
+      },
+      "張錦豪": {
+        "votes": 236,
+        "percentage": 18.96
+      }
+    },
+    "age_structure": {
+      "population_total": 3261,
+      "age_20_39": {
+        "count": 983,
+        "pct": 30.14
+      },
+      "age_40_64": {
+        "count": 1443,
+        "pct": 44.25
+      },
+      "age_65_up": {
+        "count": 398,
+        "pct": 12.2
+      }
+    }
+  },
+  "汐止區崇德里": {
+    "district": "汐止區",
+    "village": "崇德里",
+    "total_valid": 2187,
+    "candidates": {
+      "彭立信": {
+        "votes": 71,
+        "percentage": 3.25
+      },
+      "周雅玲": {
+        "votes": 207,
+        "percentage": 9.47
+      },
+      "廖先翔": {
+        "votes": 866,
+        "percentage": 39.6
+      },
+      "白珮茹": {
+        "votes": 413,
+        "percentage": 18.88
+      },
+      "黃瑞傳": {
+        "votes": 25,
+        "percentage": 1.14
+      },
+      "張錦豪": {
+        "votes": 605,
+        "percentage": 27.66
+      }
+    },
+    "age_structure": {
+      "population_total": 5247,
+      "age_20_39": {
+        "count": 1381,
+        "pct": 26.32
+      },
+      "age_40_64": {
+        "count": 2220,
+        "pct": 42.31
+      },
+      "age_65_up": {
+        "count": 735,
+        "pct": 14.01
+      }
+    }
+  },
+  "汐止區康福里": {
+    "district": "汐止區",
+    "village": "康福里",
+    "total_valid": 2353,
+    "candidates": {
+      "彭立信": {
+        "votes": 75,
+        "percentage": 3.19
+      },
+      "周雅玲": {
+        "votes": 270,
+        "percentage": 11.47
+      },
+      "廖先翔": {
+        "votes": 593,
+        "percentage": 25.2
+      },
+      "白珮茹": {
+        "votes": 789,
+        "percentage": 33.53
+      },
+      "黃瑞傳": {
+        "votes": 13,
+        "percentage": 0.55
+      },
+      "張錦豪": {
+        "votes": 613,
+        "percentage": 26.05
+      }
+    },
+    "age_structure": {
+      "population_total": 5292,
+      "age_20_39": {
+        "count": 1371,
+        "pct": 25.91
+      },
+      "age_40_64": {
+        "count": 2689,
+        "pct": 50.81
+      },
+      "age_65_up": {
+        "count": 662,
+        "pct": 12.51
+      }
+    }
+  },
+  "汐止區建成里": {
+    "district": "汐止區",
+    "village": "建成里",
+    "total_valid": 2408,
+    "candidates": {
+      "彭立信": {
+        "votes": 77,
+        "percentage": 3.2
+      },
+      "周雅玲": {
+        "votes": 281,
+        "percentage": 11.67
+      },
+      "廖先翔": {
+        "votes": 1103,
+        "percentage": 45.81
+      },
+      "白珮茹": {
+        "votes": 477,
+        "percentage": 19.81
+      },
+      "黃瑞傳": {
+        "votes": 31,
+        "percentage": 1.29
+      },
+      "張錦豪": {
+        "votes": 439,
+        "percentage": 18.23
+      }
+    },
+    "age_structure": {
+      "population_total": 5381,
+      "age_20_39": {
+        "count": 1287,
+        "pct": 23.92
+      },
+      "age_40_64": {
+        "count": 2505,
+        "pct": 46.55
+      },
+      "age_65_up": {
+        "count": 734,
+        "pct": 13.64
+      }
+    }
+  },
+  "汐止區復興里": {
+    "district": "汐止區",
+    "village": "復興里",
+    "total_valid": 3432,
+    "candidates": {
+      "彭立信": {
+        "votes": 114,
+        "percentage": 3.32
+      },
+      "周雅玲": {
+        "votes": 479,
+        "percentage": 13.96
+      },
+      "廖先翔": {
+        "votes": 1416,
+        "percentage": 41.26
+      },
+      "白珮茹": {
+        "votes": 744,
+        "percentage": 21.68
+      },
+      "黃瑞傳": {
+        "votes": 22,
+        "percentage": 0.64
+      },
+      "張錦豪": {
+        "votes": 657,
+        "percentage": 19.14
+      }
+    },
+    "age_structure": {
+      "population_total": 7235,
+      "age_20_39": {
+        "count": 1698,
+        "pct": 23.47
+      },
+      "age_40_64": {
+        "count": 3314,
+        "pct": 45.81
+      },
+      "age_65_up": {
+        "count": 1101,
+        "pct": 15.22
+      }
+    }
+  },
+  "汐止區忠孝里": {
+    "district": "汐止區",
+    "village": "忠孝里",
+    "total_valid": 3382,
+    "candidates": {
+      "彭立信": {
+        "votes": 95,
+        "percentage": 2.81
+      },
+      "周雅玲": {
+        "votes": 437,
+        "percentage": 12.92
+      },
+      "廖先翔": {
+        "votes": 1054,
+        "percentage": 31.16
+      },
+      "白珮茹": {
+        "votes": 1147,
+        "percentage": 33.91
+      },
+      "黃瑞傳": {
+        "votes": 35,
+        "percentage": 1.03
+      },
+      "張錦豪": {
+        "votes": 614,
+        "percentage": 18.15
+      }
+    },
+    "age_structure": {
+      "population_total": 8226,
+      "age_20_39": {
+        "count": 2408,
+        "pct": 29.27
+      },
+      "age_40_64": {
+        "count": 3653,
+        "pct": 44.41
+      },
+      "age_65_up": {
+        "count": 1232,
+        "pct": 14.98
+      }
+    }
+  },
+  "汐止區忠山里": {
+    "district": "汐止區",
+    "village": "忠山里",
+    "total_valid": 1799,
+    "candidates": {
+      "彭立信": {
+        "votes": 71,
+        "percentage": 3.95
+      },
+      "周雅玲": {
+        "votes": 173,
+        "percentage": 9.62
+      },
+      "廖先翔": {
+        "votes": 551,
+        "percentage": 30.63
+      },
+      "白珮茹": {
+        "votes": 628,
+        "percentage": 34.91
+      },
+      "黃瑞傳": {
+        "votes": 3,
+        "percentage": 0.17
+      },
+      "張錦豪": {
+        "votes": 373,
+        "percentage": 20.73
+      }
+    },
+    "age_structure": {
+      "population_total": 3289,
+      "age_20_39": {
+        "count": 841,
+        "pct": 25.57
+      },
+      "age_40_64": {
+        "count": 1349,
+        "pct": 41.02
+      },
+      "age_65_up": {
+        "count": 816,
+        "pct": 24.81
+      }
+    }
+  },
+  "汐止區拱北里": {
+    "district": "汐止區",
+    "village": "拱北里",
+    "total_valid": 2161,
+    "candidates": {
+      "彭立信": {
+        "votes": 65,
+        "percentage": 3.01
+      },
+      "周雅玲": {
+        "votes": 408,
+        "percentage": 18.88
+      },
+      "廖先翔": {
+        "votes": 667,
+        "percentage": 30.87
+      },
+      "白珮茹": {
+        "votes": 551,
+        "percentage": 25.5
+      },
+      "黃瑞傳": {
+        "votes": 17,
+        "percentage": 0.79
+      },
+      "張錦豪": {
+        "votes": 453,
+        "percentage": 20.96
+      }
+    },
+    "age_structure": {
+      "population_total": 5288,
+      "age_20_39": {
+        "count": 1528,
+        "pct": 28.9
+      },
+      "age_40_64": {
+        "count": 2191,
+        "pct": 41.43
+      },
+      "age_65_up": {
+        "count": 865,
+        "pct": 16.36
+      }
+    }
+  },
+  "汐止區文化里": {
+    "district": "汐止區",
+    "village": "文化里",
+    "total_valid": 2054,
+    "candidates": {
+      "彭立信": {
+        "votes": 63,
+        "percentage": 3.07
+      },
+      "周雅玲": {
+        "votes": 289,
+        "percentage": 14.07
+      },
+      "廖先翔": {
+        "votes": 729,
+        "percentage": 35.49
+      },
+      "白珮茹": {
+        "votes": 525,
+        "percentage": 25.56
+      },
+      "黃瑞傳": {
+        "votes": 14,
+        "percentage": 0.68
+      },
+      "張錦豪": {
+        "votes": 434,
+        "percentage": 21.13
+      }
+    },
+    "age_structure": {
+      "population_total": 4878,
+      "age_20_39": {
+        "count": 1402,
+        "pct": 28.74
+      },
+      "age_40_64": {
+        "count": 1995,
+        "pct": 40.9
+      },
+      "age_65_up": {
+        "count": 695,
+        "pct": 14.25
+      }
+    }
+  },
+  "汐止區新昌里": {
+    "district": "汐止區",
+    "village": "新昌里",
+    "total_valid": 2342,
+    "candidates": {
+      "彭立信": {
+        "votes": 62,
+        "percentage": 2.65
+      },
+      "周雅玲": {
+        "votes": 279,
+        "percentage": 11.91
+      },
+      "廖先翔": {
+        "votes": 856,
+        "percentage": 36.55
+      },
+      "白珮茹": {
+        "votes": 486,
+        "percentage": 20.75
+      },
+      "黃瑞傳": {
+        "votes": 50,
+        "percentage": 2.13
+      },
+      "張錦豪": {
+        "votes": 609,
+        "percentage": 26.0
+      }
+    },
+    "age_structure": {
+      "population_total": 5624,
+      "age_20_39": {
+        "count": 1462,
+        "pct": 26.0
+      },
+      "age_40_64": {
+        "count": 2213,
+        "pct": 39.35
+      },
+      "age_65_up": {
+        "count": 1027,
+        "pct": 18.26
+      }
+    }
+  },
+  "汐止區智慧里": {
+    "district": "汐止區",
+    "village": "智慧里",
+    "total_valid": 2038,
+    "candidates": {
+      "彭立信": {
+        "votes": 66,
+        "percentage": 3.24
+      },
+      "周雅玲": {
+        "votes": 241,
+        "percentage": 11.83
+      },
+      "廖先翔": {
+        "votes": 717,
+        "percentage": 35.18
+      },
+      "白珮茹": {
+        "votes": 589,
+        "percentage": 28.9
+      },
+      "黃瑞傳": {
+        "votes": 27,
+        "percentage": 1.32
+      },
+      "張錦豪": {
+        "votes": 398,
+        "percentage": 19.53
+      }
+    },
+    "age_structure": {
+      "population_total": 4779,
+      "age_20_39": {
+        "count": 1325,
+        "pct": 27.73
+      },
+      "age_40_64": {
+        "count": 2059,
+        "pct": 43.08
+      },
+      "age_65_up": {
+        "count": 753,
+        "pct": 15.76
+      }
+    }
+  },
+  "汐止區東勢里": {
+    "district": "汐止區",
+    "village": "東勢里",
+    "total_valid": 2263,
+    "candidates": {
+      "彭立信": {
+        "votes": 127,
+        "percentage": 5.61
+      },
+      "周雅玲": {
+        "votes": 334,
+        "percentage": 14.76
+      },
+      "廖先翔": {
+        "votes": 609,
+        "percentage": 26.91
+      },
+      "白珮茹": {
+        "votes": 774,
+        "percentage": 34.2
+      },
+      "黃瑞傳": {
+        "votes": 17,
+        "percentage": 0.75
+      },
+      "張錦豪": {
+        "votes": 402,
+        "percentage": 17.76
+      }
+    },
+    "age_structure": {
+      "population_total": 4884,
+      "age_20_39": {
+        "count": 1187,
+        "pct": 24.3
+      },
+      "age_40_64": {
+        "count": 2247,
+        "pct": 46.01
+      },
+      "age_65_up": {
+        "count": 868,
+        "pct": 17.77
+      }
+    }
+  },
+  "汐止區東山里": {
+    "district": "汐止區",
+    "village": "東山里",
+    "total_valid": 328,
+    "candidates": {
+      "彭立信": {
+        "votes": 6,
+        "percentage": 1.83
+      },
+      "周雅玲": {
+        "votes": 66,
+        "percentage": 20.12
+      },
+      "廖先翔": {
+        "votes": 136,
+        "percentage": 41.46
+      },
+      "白珮茹": {
+        "votes": 56,
+        "percentage": 17.07
+      },
+      "黃瑞傳": {
+        "votes": 2,
+        "percentage": 0.61
+      },
+      "張錦豪": {
+        "votes": 62,
+        "percentage": 18.9
+      }
+    },
+    "age_structure": {
+      "population_total": 612,
+      "age_20_39": {
+        "count": 134,
+        "pct": 21.9
+      },
+      "age_40_64": {
+        "count": 261,
+        "pct": 42.65
+      },
+      "age_65_up": {
+        "count": 132,
+        "pct": 21.57
+      }
+    }
+  },
+  "汐止區樟樹里": {
+    "district": "汐止區",
+    "village": "樟樹里",
+    "total_valid": 1074,
+    "candidates": {
+      "彭立信": {
+        "votes": 30,
+        "percentage": 2.79
+      },
+      "周雅玲": {
+        "votes": 198,
+        "percentage": 18.44
+      },
+      "廖先翔": {
+        "votes": 296,
+        "percentage": 27.56
+      },
+      "白珮茹": {
+        "votes": 272,
+        "percentage": 25.33
+      },
+      "黃瑞傳": {
+        "votes": 9,
+        "percentage": 0.84
+      },
+      "張錦豪": {
+        "votes": 269,
+        "percentage": 25.05
+      }
+    },
+    "age_structure": {
+      "population_total": 2199,
+      "age_20_39": {
+        "count": 550,
+        "pct": 25.01
+      },
+      "age_40_64": {
+        "count": 970,
+        "pct": 44.11
+      },
+      "age_65_up": {
+        "count": 450,
+        "pct": 20.46
+      }
+    }
+  },
+  "汐止區橋東里": {
+    "district": "汐止區",
+    "village": "橋東里",
+    "total_valid": 1658,
+    "candidates": {
+      "彭立信": {
+        "votes": 78,
+        "percentage": 4.7
+      },
+      "周雅玲": {
+        "votes": 198,
+        "percentage": 11.94
+      },
+      "廖先翔": {
+        "votes": 663,
+        "percentage": 39.99
+      },
+      "白珮茹": {
+        "votes": 330,
+        "percentage": 19.9
+      },
+      "黃瑞傳": {
+        "votes": 17,
+        "percentage": 1.03
+      },
+      "張錦豪": {
+        "votes": 372,
+        "percentage": 22.44
+      }
+    },
+    "age_structure": {
+      "population_total": 3838,
+      "age_20_39": {
+        "count": 1071,
+        "pct": 27.91
+      },
+      "age_40_64": {
+        "count": 1565,
+        "pct": 40.78
+      },
+      "age_65_up": {
+        "count": 502,
+        "pct": 13.08
+      }
+    }
+  },
+  "汐止區橫科里": {
+    "district": "汐止區",
+    "village": "橫科里",
+    "total_valid": 2137,
+    "candidates": {
+      "彭立信": {
+        "votes": 106,
+        "percentage": 4.96
+      },
+      "周雅玲": {
+        "votes": 422,
+        "percentage": 19.75
+      },
+      "廖先翔": {
+        "votes": 511,
+        "percentage": 23.91
+      },
+      "白珮茹": {
+        "votes": 730,
+        "percentage": 34.16
+      },
+      "黃瑞傳": {
+        "votes": 16,
+        "percentage": 0.75
+      },
+      "張錦豪": {
+        "votes": 352,
+        "percentage": 16.47
+      }
+    },
+    "age_structure": {
+      "population_total": 4670,
+      "age_20_39": {
+        "count": 1180,
+        "pct": 25.27
+      },
+      "age_40_64": {
+        "count": 1984,
+        "pct": 42.48
+      },
+      "age_65_up": {
+        "count": 1007,
+        "pct": 21.56
+      }
+    }
+  },
+  "汐止區江北里": {
+    "district": "汐止區",
+    "village": "江北里",
+    "total_valid": 2747,
+    "candidates": {
+      "彭立信": {
+        "votes": 76,
+        "percentage": 2.77
+      },
+      "周雅玲": {
+        "votes": 407,
+        "percentage": 14.82
+      },
+      "廖先翔": {
+        "votes": 964,
+        "percentage": 35.09
+      },
+      "白珮茹": {
+        "votes": 707,
+        "percentage": 25.74
+      },
+      "黃瑞傳": {
+        "votes": 30,
+        "percentage": 1.09
+      },
+      "張錦豪": {
+        "votes": 563,
+        "percentage": 20.5
+      }
+    },
+    "age_structure": {
+      "population_total": 6242,
+      "age_20_39": {
+        "count": 1747,
+        "pct": 27.99
+      },
+      "age_40_64": {
+        "count": 2653,
+        "pct": 42.5
+      },
+      "age_65_up": {
+        "count": 984,
+        "pct": 15.76
+      }
+    }
+  },
+  "汐止區湖光里": {
+    "district": "汐止區",
+    "village": "湖光里",
+    "total_valid": 3000,
+    "candidates": {
+      "彭立信": {
+        "votes": 105,
+        "percentage": 3.5
+      },
+      "周雅玲": {
+        "votes": 292,
+        "percentage": 9.73
+      },
+      "廖先翔": {
+        "votes": 736,
+        "percentage": 24.53
+      },
+      "白珮茹": {
+        "votes": 1209,
+        "percentage": 40.3
+      },
+      "黃瑞傳": {
+        "votes": 20,
+        "percentage": 0.67
+      },
+      "張錦豪": {
+        "votes": 638,
+        "percentage": 21.27
+      }
+    },
+    "age_structure": {
+      "population_total": 6235,
+      "age_20_39": {
+        "count": 1605,
+        "pct": 25.74
+      },
+      "age_40_64": {
+        "count": 2920,
+        "pct": 46.83
+      },
+      "age_65_up": {
+        "count": 1003,
+        "pct": 16.09
+      }
+    }
+  },
+  "汐止區湖興里": {
+    "district": "汐止區",
+    "village": "湖興里",
+    "total_valid": 3145,
+    "candidates": {
+      "彭立信": {
+        "votes": 60,
+        "percentage": 1.91
+      },
+      "周雅玲": {
+        "votes": 304,
+        "percentage": 9.67
+      },
+      "廖先翔": {
+        "votes": 795,
+        "percentage": 25.28
+      },
+      "白珮茹": {
+        "votes": 1436,
+        "percentage": 45.66
+      },
+      "黃瑞傳": {
+        "votes": 45,
+        "percentage": 1.43
+      },
+      "張錦豪": {
+        "votes": 505,
+        "percentage": 16.06
+      }
+    },
+    "age_structure": {
+      "population_total": 6449,
+      "age_20_39": {
+        "count": 1733,
+        "pct": 26.87
+      },
+      "age_40_64": {
+        "count": 2904,
+        "pct": 45.03
+      },
+      "age_65_up": {
+        "count": 1172,
+        "pct": 18.17
+      }
+    }
+  },
+  "汐止區湖蓮里": {
+    "district": "汐止區",
+    "village": "湖蓮里",
+    "total_valid": 1555,
+    "candidates": {
+      "彭立信": {
+        "votes": 52,
+        "percentage": 3.34
+      },
+      "周雅玲": {
+        "votes": 80,
+        "percentage": 5.14
+      },
+      "廖先翔": {
+        "votes": 347,
+        "percentage": 22.32
+      },
+      "白珮茹": {
+        "votes": 413,
+        "percentage": 26.56
+      },
+      "黃瑞傳": {
+        "votes": 7,
+        "percentage": 0.45
+      },
+      "張錦豪": {
+        "votes": 656,
+        "percentage": 42.19
+      }
+    },
+    "age_structure": {
+      "population_total": 2835,
+      "age_20_39": {
+        "count": 555,
+        "pct": 19.58
+      },
+      "age_40_64": {
+        "count": 1339,
+        "pct": 47.23
+      },
+      "age_65_up": {
+        "count": 584,
+        "pct": 20.6
+      }
+    }
+  },
+  "汐止區烘內里": {
+    "district": "汐止區",
+    "village": "烘內里",
+    "total_valid": 816,
+    "candidates": {
+      "彭立信": {
+        "votes": 24,
+        "percentage": 2.94
+      },
+      "周雅玲": {
+        "votes": 134,
+        "percentage": 16.42
+      },
+      "廖先翔": {
+        "votes": 325,
+        "percentage": 39.83
+      },
+      "白珮茹": {
+        "votes": 191,
+        "percentage": 23.41
+      },
+      "黃瑞傳": {
+        "votes": 9,
+        "percentage": 1.1
+      },
+      "張錦豪": {
+        "votes": 133,
+        "percentage": 16.3
+      }
+    },
+    "age_structure": {
+      "population_total": 1569,
+      "age_20_39": {
+        "count": 381,
+        "pct": 24.28
+      },
+      "age_40_64": {
+        "count": 678,
+        "pct": 43.21
+      },
+      "age_65_up": {
+        "count": 365,
+        "pct": 23.26
+      }
+    }
+  },
+  "汐止區環河里": {
+    "district": "汐止區",
+    "village": "環河里",
+    "total_valid": 628,
+    "candidates": {
+      "彭立信": {
+        "votes": 10,
+        "percentage": 1.59
+      },
+      "周雅玲": {
+        "votes": 119,
+        "percentage": 18.95
+      },
+      "廖先翔": {
+        "votes": 114,
+        "percentage": 18.15
+      },
+      "白珮茹": {
+        "votes": 211,
+        "percentage": 33.6
+      },
+      "黃瑞傳": {
+        "votes": 7,
+        "percentage": 1.11
+      },
+      "張錦豪": {
+        "votes": 167,
+        "percentage": 26.59
+      }
+    },
+    "age_structure": {
+      "population_total": 1259,
+      "age_20_39": {
+        "count": 321,
+        "pct": 25.5
+      },
+      "age_40_64": {
+        "count": 549,
+        "pct": 43.61
+      },
+      "age_65_up": {
+        "count": 266,
+        "pct": 21.13
+      }
+    }
+  },
+  "汐止區白雲里": {
+    "district": "汐止區",
+    "village": "白雲里",
+    "total_valid": 2011,
+    "candidates": {
+      "彭立信": {
+        "votes": 52,
+        "percentage": 2.59
+      },
+      "周雅玲": {
+        "votes": 256,
+        "percentage": 12.73
+      },
+      "廖先翔": {
+        "votes": 768,
+        "percentage": 38.19
+      },
+      "白珮茹": {
+        "votes": 434,
+        "percentage": 21.58
+      },
+      "黃瑞傳": {
+        "votes": 11,
+        "percentage": 0.55
+      },
+      "張錦豪": {
+        "votes": 490,
+        "percentage": 24.37
+      }
+    },
+    "age_structure": {
+      "population_total": 4557,
+      "age_20_39": {
+        "count": 1134,
+        "pct": 24.88
+      },
+      "age_40_64": {
+        "count": 1957,
+        "pct": 42.94
+      },
+      "age_65_up": {
+        "count": 755,
+        "pct": 16.57
+      }
+    }
+  },
+  "汐止區福安里": {
+    "district": "汐止區",
+    "village": "福安里",
+    "total_valid": 2618,
+    "candidates": {
+      "彭立信": {
+        "votes": 78,
+        "percentage": 2.98
+      },
+      "周雅玲": {
+        "votes": 373,
+        "percentage": 14.25
+      },
+      "廖先翔": {
+        "votes": 1095,
+        "percentage": 41.83
+      },
+      "白珮茹": {
+        "votes": 507,
+        "percentage": 19.37
+      },
+      "黃瑞傳": {
+        "votes": 29,
+        "percentage": 1.11
+      },
+      "張錦豪": {
+        "votes": 536,
+        "percentage": 20.47
+      }
+    },
+    "age_structure": {
+      "population_total": 7188,
+      "age_20_39": {
+        "count": 1804,
+        "pct": 25.1
+      },
+      "age_40_64": {
+        "count": 3009,
+        "pct": 41.86
+      },
+      "age_65_up": {
+        "count": 697,
+        "pct": 9.7
+      }
+    }
+  },
+  "汐止區福山里": {
+    "district": "汐止區",
+    "village": "福山里",
+    "total_valid": 1670,
+    "candidates": {
+      "彭立信": {
+        "votes": 84,
+        "percentage": 5.03
+      },
+      "周雅玲": {
+        "votes": 289,
+        "percentage": 17.31
+      },
+      "廖先翔": {
+        "votes": 409,
+        "percentage": 24.49
+      },
+      "白珮茹": {
+        "votes": 608,
+        "percentage": 36.41
+      },
+      "黃瑞傳": {
+        "votes": 14,
+        "percentage": 0.84
+      },
+      "張錦豪": {
+        "votes": 266,
+        "percentage": 15.93
+      }
+    },
+    "age_structure": {
+      "population_total": 3696,
+      "age_20_39": {
+        "count": 904,
+        "pct": 24.46
+      },
+      "age_40_64": {
+        "count": 1509,
+        "pct": 40.83
+      },
+      "age_65_up": {
+        "count": 885,
+        "pct": 23.94
+      }
+    }
+  },
+  "汐止區福德里": {
+    "district": "汐止區",
+    "village": "福德里",
+    "total_valid": 1434,
+    "candidates": {
+      "彭立信": {
+        "votes": 31,
+        "percentage": 2.16
+      },
+      "周雅玲": {
+        "votes": 187,
+        "percentage": 13.04
+      },
+      "廖先翔": {
+        "votes": 399,
+        "percentage": 27.82
+      },
+      "白珮茹": {
+        "votes": 487,
+        "percentage": 33.96
+      },
+      "黃瑞傳": {
+        "votes": 12,
+        "percentage": 0.84
+      },
+      "張錦豪": {
+        "votes": 318,
+        "percentage": 22.18
+      }
+    },
+    "age_structure": {
+      "population_total": 3476,
+      "age_20_39": {
+        "count": 1052,
+        "pct": 30.26
+      },
+      "age_40_64": {
+        "count": 1533,
+        "pct": 44.1
+      },
+      "age_65_up": {
+        "count": 529,
+        "pct": 15.22
+      }
+    }
+  },
+  "汐止區禮門里": {
+    "district": "汐止區",
+    "village": "禮門里",
+    "total_valid": 582,
+    "candidates": {
+      "彭立信": {
+        "votes": 17,
+        "percentage": 2.92
+      },
+      "周雅玲": {
+        "votes": 82,
+        "percentage": 14.09
+      },
+      "廖先翔": {
+        "votes": 205,
+        "percentage": 35.22
+      },
+      "白珮茹": {
+        "votes": 121,
+        "percentage": 20.79
+      },
+      "黃瑞傳": {
+        "votes": 10,
+        "percentage": 1.72
+      },
+      "張錦豪": {
+        "votes": 147,
+        "percentage": 25.26
+      }
+    },
+    "age_structure": {
+      "population_total": 1140,
+      "age_20_39": {
+        "count": 302,
+        "pct": 26.49
+      },
+      "age_40_64": {
+        "count": 441,
+        "pct": 38.68
+      },
+      "age_65_up": {
+        "count": 240,
+        "pct": 21.05
+      }
+    }
+  },
+  "汐止區秀山里": {
+    "district": "汐止區",
+    "village": "秀山里",
+    "total_valid": 2096,
+    "candidates": {
+      "彭立信": {
+        "votes": 93,
+        "percentage": 4.44
+      },
+      "周雅玲": {
+        "votes": 337,
+        "percentage": 16.08
+      },
+      "廖先翔": {
+        "votes": 703,
+        "percentage": 33.54
+      },
+      "白珮茹": {
+        "votes": 558,
+        "percentage": 26.62
+      },
+      "黃瑞傳": {
+        "votes": 28,
+        "percentage": 1.34
+      },
+      "張錦豪": {
+        "votes": 377,
+        "percentage": 17.99
+      }
+    },
+    "age_structure": {
+      "population_total": 4888,
+      "age_20_39": {
+        "count": 1324,
+        "pct": 27.09
+      },
+      "age_40_64": {
+        "count": 1966,
+        "pct": 40.22
+      },
+      "age_65_up": {
+        "count": 737,
+        "pct": 15.08
+      }
+    }
+  },
+  "汐止區秀峰里": {
+    "district": "汐止區",
+    "village": "秀峰里",
+    "total_valid": 1668,
+    "candidates": {
+      "彭立信": {
+        "votes": 53,
+        "percentage": 3.18
+      },
+      "周雅玲": {
+        "votes": 323,
+        "percentage": 19.36
+      },
+      "廖先翔": {
+        "votes": 614,
+        "percentage": 36.81
+      },
+      "白珮茹": {
+        "votes": 321,
+        "percentage": 19.24
+      },
+      "黃瑞傳": {
+        "votes": 19,
+        "percentage": 1.14
+      },
+      "張錦豪": {
+        "votes": 338,
+        "percentage": 20.26
+      }
+    },
+    "age_structure": {
+      "population_total": 5643,
+      "age_20_39": {
+        "count": 1274,
+        "pct": 22.58
+      },
+      "age_40_64": {
+        "count": 2488,
+        "pct": 44.09
+      },
+      "age_65_up": {
+        "count": 970,
+        "pct": 17.19
+      }
+    }
+  },
+  "汐止區義民里": {
+    "district": "汐止區",
+    "village": "義民里",
+    "total_valid": 705,
+    "candidates": {
+      "彭立信": {
+        "votes": 16,
+        "percentage": 2.27
+      },
+      "周雅玲": {
+        "votes": 100,
+        "percentage": 14.18
+      },
+      "廖先翔": {
+        "votes": 291,
+        "percentage": 41.28
+      },
+      "白珮茹": {
+        "votes": 151,
+        "percentage": 21.42
+      },
+      "黃瑞傳": {
+        "votes": 16,
+        "percentage": 2.27
+      },
+      "張錦豪": {
+        "votes": 131,
+        "percentage": 18.58
+      }
+    },
+    "age_structure": {
+      "population_total": 1330,
+      "age_20_39": {
+        "count": 329,
+        "pct": 24.74
+      },
+      "age_40_64": {
+        "count": 532,
+        "pct": 40.0
+      },
+      "age_65_up": {
+        "count": 328,
+        "pct": 24.66
+      }
+    }
+  },
+  "汐止區自強里": {
+    "district": "汐止區",
+    "village": "自強里",
+    "total_valid": 2758,
+    "candidates": {
+      "彭立信": {
+        "votes": 94,
+        "percentage": 3.41
+      },
+      "周雅玲": {
+        "votes": 377,
+        "percentage": 13.67
+      },
+      "廖先翔": {
+        "votes": 1097,
+        "percentage": 39.78
+      },
+      "白珮茹": {
+        "votes": 614,
+        "percentage": 22.26
+      },
+      "黃瑞傳": {
+        "votes": 18,
+        "percentage": 0.65
+      },
+      "張錦豪": {
+        "votes": 558,
+        "percentage": 20.23
+      }
+    },
+    "age_structure": {
+      "population_total": 6266,
+      "age_20_39": {
+        "count": 1633,
+        "pct": 26.06
+      },
+      "age_40_64": {
+        "count": 2651,
+        "pct": 42.31
+      },
+      "age_65_up": {
+        "count": 812,
+        "pct": 12.96
+      }
+    }
+  },
+  "汐止區興福里": {
+    "district": "汐止區",
+    "village": "興福里",
+    "total_valid": 1518,
+    "candidates": {
+      "彭立信": {
+        "votes": 59,
+        "percentage": 3.89
+      },
+      "周雅玲": {
+        "votes": 190,
+        "percentage": 12.52
+      },
+      "廖先翔": {
+        "votes": 463,
+        "percentage": 30.5
+      },
+      "白珮茹": {
+        "votes": 506,
+        "percentage": 33.33
+      },
+      "黃瑞傳": {
+        "votes": 9,
+        "percentage": 0.59
+      },
+      "張錦豪": {
+        "votes": 291,
+        "percentage": 19.17
+      }
+    },
+    "age_structure": {
+      "population_total": 3209,
+      "age_20_39": {
+        "count": 883,
+        "pct": 27.52
+      },
+      "age_40_64": {
+        "count": 1490,
+        "pct": 46.43
+      },
+      "age_65_up": {
+        "count": 508,
+        "pct": 15.83
+      }
+    }
+  },
+  "汐止區茄苳里": {
+    "district": "汐止區",
+    "village": "茄苳里",
+    "total_valid": 2062,
+    "candidates": {
+      "彭立信": {
+        "votes": 45,
+        "percentage": 2.18
+      },
+      "周雅玲": {
+        "votes": 281,
+        "percentage": 13.63
+      },
+      "廖先翔": {
+        "votes": 751,
+        "percentage": 36.42
+      },
+      "白珮茹": {
+        "votes": 469,
+        "percentage": 22.74
+      },
+      "黃瑞傳": {
+        "votes": 23,
+        "percentage": 1.12
+      },
+      "張錦豪": {
+        "votes": 493,
+        "percentage": 23.91
+      }
+    },
+    "age_structure": {
+      "population_total": 4759,
+      "age_20_39": {
+        "count": 1319,
+        "pct": 27.72
+      },
+      "age_40_64": {
+        "count": 1930,
+        "pct": 40.55
+      },
+      "age_65_up": {
+        "count": 634,
+        "pct": 13.32
+      }
+    }
+  },
+  "汐止區鄉長里": {
+    "district": "汐止區",
+    "village": "鄉長里",
+    "total_valid": 1285,
+    "candidates": {
+      "彭立信": {
+        "votes": 35,
+        "percentage": 2.72
+      },
+      "周雅玲": {
+        "votes": 212,
+        "percentage": 16.5
+      },
+      "廖先翔": {
+        "votes": 476,
+        "percentage": 37.04
+      },
+      "白珮茹": {
+        "votes": 252,
+        "percentage": 19.61
+      },
+      "黃瑞傳": {
+        "votes": 13,
+        "percentage": 1.01
+      },
+      "張錦豪": {
+        "votes": 297,
+        "percentage": 23.11
+      }
+    },
+    "age_structure": {
+      "population_total": 2313,
+      "age_20_39": {
+        "count": 686,
+        "pct": 29.66
+      },
+      "age_40_64": {
+        "count": 973,
+        "pct": 42.07
+      },
+      "age_65_up": {
+        "count": 402,
+        "pct": 17.38
+      }
+    }
+  },
+  "汐止區金龍里": {
+    "district": "汐止區",
+    "village": "金龍里",
+    "total_valid": 2228,
+    "candidates": {
+      "彭立信": {
+        "votes": 48,
+        "percentage": 2.15
+      },
+      "周雅玲": {
+        "votes": 232,
+        "percentage": 10.41
+      },
+      "廖先翔": {
+        "votes": 488,
+        "percentage": 21.9
+      },
+      "白珮茹": {
+        "votes": 765,
+        "percentage": 34.34
+      },
+      "黃瑞傳": {
+        "votes": 15,
+        "percentage": 0.67
+      },
+      "張錦豪": {
+        "votes": 680,
+        "percentage": 30.52
+      }
+    },
+    "age_structure": {
+      "population_total": 5504,
+      "age_20_39": {
+        "count": 1473,
+        "pct": 26.76
+      },
+      "age_40_64": {
+        "count": 2511,
+        "pct": 45.62
+      },
+      "age_65_up": {
+        "count": 844,
+        "pct": 15.33
+      }
+    }
+  },
+  "汐止區長安里": {
+    "district": "汐止區",
+    "village": "長安里",
+    "total_valid": 835,
+    "candidates": {
+      "彭立信": {
+        "votes": 22,
+        "percentage": 2.63
+      },
+      "周雅玲": {
+        "votes": 148,
+        "percentage": 17.72
+      },
+      "廖先翔": {
+        "votes": 332,
+        "percentage": 39.76
+      },
+      "白珮茹": {
+        "votes": 148,
+        "percentage": 17.72
+      },
+      "黃瑞傳": {
+        "votes": 6,
+        "percentage": 0.72
+      },
+      "張錦豪": {
+        "votes": 179,
+        "percentage": 21.44
+      }
+    },
+    "age_structure": {
+      "population_total": 1658,
+      "age_20_39": {
+        "count": 436,
+        "pct": 26.3
+      },
+      "age_40_64": {
+        "count": 678,
+        "pct": 40.89
+      },
+      "age_65_up": {
+        "count": 347,
+        "pct": 20.93
+      }
+    }
+  },
+  "汐止區長青里": {
+    "district": "汐止區",
+    "village": "長青里",
+    "total_valid": 476,
+    "candidates": {
+      "彭立信": {
+        "votes": 30,
+        "percentage": 6.3
+      },
+      "周雅玲": {
+        "votes": 86,
+        "percentage": 18.07
+      },
+      "廖先翔": {
+        "votes": 156,
+        "percentage": 32.77
+      },
+      "白珮茹": {
+        "votes": 112,
+        "percentage": 23.53
+      },
+      "黃瑞傳": {
+        "votes": 7,
+        "percentage": 1.47
+      },
+      "張錦豪": {
+        "votes": 85,
+        "percentage": 17.86
+      }
+    },
+    "age_structure": {
+      "population_total": 923,
+      "age_20_39": {
+        "count": 185,
+        "pct": 20.04
+      },
+      "age_40_64": {
+        "count": 370,
+        "pct": 40.09
+      },
+      "age_65_up": {
+        "count": 302,
+        "pct": 32.72
+      }
+    }
+  },
+  "萬里區中幅里": {
+    "district": "萬里區",
+    "village": "中幅里",
+    "total_valid": 660,
+    "candidates": {
+      "彭立信": {
+        "votes": 15,
+        "percentage": 2.27
+      },
+      "周雅玲": {
+        "votes": 250,
+        "percentage": 37.88
+      },
+      "廖先翔": {
+        "votes": 106,
+        "percentage": 16.06
+      },
+      "白珮茹": {
+        "votes": 134,
+        "percentage": 20.3
+      },
+      "黃瑞傳": {
+        "votes": 15,
+        "percentage": 2.27
+      },
+      "張錦豪": {
+        "votes": 140,
+        "percentage": 21.21
+      }
+    },
+    "age_structure": {
+      "population_total": 1243,
+      "age_20_39": {
+        "count": 316,
+        "pct": 25.42
+      },
+      "age_40_64": {
+        "count": 526,
+        "pct": 42.32
+      },
+      "age_65_up": {
+        "count": 218,
+        "pct": 17.54
+      }
+    }
+  },
+  "萬里區北基里": {
+    "district": "萬里區",
+    "village": "北基里",
+    "total_valid": 1020,
+    "candidates": {
+      "彭立信": {
+        "votes": 31,
+        "percentage": 3.04
+      },
+      "周雅玲": {
+        "votes": 240,
+        "percentage": 23.53
+      },
+      "廖先翔": {
+        "votes": 152,
+        "percentage": 14.9
+      },
+      "白珮茹": {
+        "votes": 291,
+        "percentage": 28.53
+      },
+      "黃瑞傳": {
+        "votes": 11,
+        "percentage": 1.08
+      },
+      "張錦豪": {
+        "votes": 295,
+        "percentage": 28.92
+      }
+    },
+    "age_structure": {
+      "population_total": 2961,
+      "age_20_39": {
+        "count": 671,
+        "pct": 22.66
+      },
+      "age_40_64": {
+        "count": 1193,
+        "pct": 40.29
+      },
+      "age_65_up": {
+        "count": 780,
+        "pct": 26.34
+      }
+    }
+  },
+  "萬里區大鵬里": {
+    "district": "萬里區",
+    "village": "大鵬里",
+    "total_valid": 1195,
+    "candidates": {
+      "彭立信": {
+        "votes": 28,
+        "percentage": 2.34
+      },
+      "周雅玲": {
+        "votes": 635,
+        "percentage": 53.14
+      },
+      "廖先翔": {
+        "votes": 152,
+        "percentage": 12.72
+      },
+      "白珮茹": {
+        "votes": 245,
+        "percentage": 20.5
+      },
+      "黃瑞傳": {
+        "votes": 18,
+        "percentage": 1.51
+      },
+      "張錦豪": {
+        "votes": 117,
+        "percentage": 9.79
+      }
+    },
+    "age_structure": {
+      "population_total": 2964,
+      "age_20_39": {
+        "count": 744,
+        "pct": 25.1
+      },
+      "age_40_64": {
+        "count": 1258,
+        "pct": 42.44
+      },
+      "age_65_up": {
+        "count": 592,
+        "pct": 19.97
+      }
+    }
+  },
+  "萬里區崁脚里": {
+    "district": "萬里區",
+    "village": "崁脚里",
+    "total_valid": 240,
+    "candidates": {
+      "彭立信": {
+        "votes": 5,
+        "percentage": 2.08
+      },
+      "周雅玲": {
+        "votes": 108,
+        "percentage": 45.0
+      },
+      "廖先翔": {
+        "votes": 45,
+        "percentage": 18.75
+      },
+      "白珮茹": {
+        "votes": 36,
+        "percentage": 15.0
+      },
+      "黃瑞傳": {
+        "votes": 2,
+        "percentage": 0.83
+      },
+      "張錦豪": {
+        "votes": 44,
+        "percentage": 18.33
+      }
+    },
+    "age_structure": {
+      "population_total": 430,
+      "age_20_39": {
+        "count": 71,
+        "pct": 16.51
+      },
+      "age_40_64": {
+        "count": 190,
+        "pct": 44.19
+      },
+      "age_65_up": {
+        "count": 118,
+        "pct": 27.44
+      }
+    }
+  },
+  "萬里區溪底里": {
+    "district": "萬里區",
+    "village": "溪底里",
+    "total_valid": 256,
+    "candidates": {
+      "彭立信": {
+        "votes": 5,
+        "percentage": 1.95
+      },
+      "周雅玲": {
+        "votes": 107,
+        "percentage": 41.8
+      },
+      "廖先翔": {
+        "votes": 50,
+        "percentage": 19.53
+      },
+      "白珮茹": {
+        "votes": 48,
+        "percentage": 18.75
+      },
+      "黃瑞傳": {
+        "votes": 10,
+        "percentage": 3.91
+      },
+      "張錦豪": {
+        "votes": 36,
+        "percentage": 14.06
+      }
+    },
+    "age_structure": {
+      "population_total": 668,
+      "age_20_39": {
+        "count": 117,
+        "pct": 17.51
+      },
+      "age_40_64": {
+        "count": 276,
+        "pct": 41.32
+      },
+      "age_65_up": {
+        "count": 225,
+        "pct": 33.68
+      }
+    }
+  },
+  "萬里區磺潭里": {
+    "district": "萬里區",
+    "village": "磺潭里",
+    "total_valid": 272,
+    "candidates": {
+      "彭立信": {
+        "votes": 9,
+        "percentage": 3.31
+      },
+      "周雅玲": {
+        "votes": 95,
+        "percentage": 34.93
+      },
+      "廖先翔": {
+        "votes": 32,
+        "percentage": 11.76
+      },
+      "白珮茹": {
+        "votes": 97,
+        "percentage": 35.66
+      },
+      "黃瑞傳": {
+        "votes": 7,
+        "percentage": 2.57
+      },
+      "張錦豪": {
+        "votes": 32,
+        "percentage": 11.76
+      }
+    },
+    "age_structure": {
+      "population_total": 659,
+      "age_20_39": {
+        "count": 126,
+        "pct": 19.12
+      },
+      "age_40_64": {
+        "count": 280,
+        "pct": 42.49
+      },
+      "age_65_up": {
+        "count": 156,
+        "pct": 23.67
+      }
+    }
+  },
+  "萬里區萬里里": {
+    "district": "萬里區",
+    "village": "萬里里",
+    "total_valid": 2206,
+    "candidates": {
+      "彭立信": {
+        "votes": 50,
+        "percentage": 2.27
+      },
+      "周雅玲": {
+        "votes": 696,
+        "percentage": 31.55
+      },
+      "廖先翔": {
+        "votes": 404,
+        "percentage": 18.31
+      },
+      "白珮茹": {
+        "votes": 562,
+        "percentage": 25.48
+      },
+      "黃瑞傳": {
+        "votes": 22,
+        "percentage": 1.0
+      },
+      "張錦豪": {
+        "votes": 472,
+        "percentage": 21.4
+      }
+    },
+    "age_structure": {
+      "population_total": 4854,
+      "age_20_39": {
+        "count": 1301,
+        "pct": 26.8
+      },
+      "age_40_64": {
+        "count": 2057,
+        "pct": 42.38
+      },
+      "age_65_up": {
+        "count": 805,
+        "pct": 16.58
+      }
+    }
+  },
+  "萬里區野柳里": {
+    "district": "萬里區",
+    "village": "野柳里",
+    "total_valid": 1755,
+    "candidates": {
+      "彭立信": {
+        "votes": 37,
+        "percentage": 2.11
+      },
+      "周雅玲": {
+        "votes": 707,
+        "percentage": 40.28
+      },
+      "廖先翔": {
+        "votes": 302,
+        "percentage": 17.21
+      },
+      "白珮茹": {
+        "votes": 454,
+        "percentage": 25.87
+      },
+      "黃瑞傳": {
+        "votes": 29,
+        "percentage": 1.65
+      },
+      "張錦豪": {
+        "votes": 226,
+        "percentage": 12.88
+      }
+    },
+    "age_structure": {
+      "population_total": 3495,
+      "age_20_39": {
+        "count": 899,
+        "pct": 25.72
+      },
+      "age_40_64": {
+        "count": 1538,
+        "pct": 44.01
+      },
+      "age_65_up": {
+        "count": 631,
+        "pct": 18.05
+      }
+    }
+  },
+  "萬里區雙興里": {
+    "district": "萬里區",
+    "village": "雙興里",
+    "total_valid": 622,
+    "candidates": {
+      "彭立信": {
+        "votes": 20,
+        "percentage": 3.22
+      },
+      "周雅玲": {
+        "votes": 293,
+        "percentage": 47.11
+      },
+      "廖先翔": {
+        "votes": 55,
+        "percentage": 8.84
+      },
+      "白珮茹": {
+        "votes": 130,
+        "percentage": 20.9
+      },
+      "黃瑞傳": {
+        "votes": 7,
+        "percentage": 1.13
+      },
+      "張錦豪": {
+        "votes": 117,
+        "percentage": 18.81
+      }
+    },
+    "age_structure": {
+      "population_total": 1039,
+      "age_20_39": {
+        "count": 194,
+        "pct": 18.67
+      },
+      "age_40_64": {
+        "count": 449,
+        "pct": 43.21
+      },
+      "age_65_up": {
+        "count": 289,
+        "pct": 27.82
+      }
+    }
+  },
+  "萬里區龜吼里": {
+    "district": "萬里區",
+    "village": "龜吼里",
+    "total_valid": 1345,
+    "candidates": {
+      "彭立信": {
+        "votes": 36,
+        "percentage": 2.68
+      },
+      "周雅玲": {
+        "votes": 451,
+        "percentage": 33.53
+      },
+      "廖先翔": {
+        "votes": 208,
+        "percentage": 15.46
+      },
+      "白珮茹": {
+        "votes": 313,
+        "percentage": 23.27
+      },
+      "黃瑞傳": {
+        "votes": 20,
+        "percentage": 1.49
+      },
+      "張錦豪": {
+        "votes": 317,
+        "percentage": 23.57
+      }
+    },
+    "age_structure": {
+      "population_total": 2798,
+      "age_20_39": {
+        "count": 640,
+        "pct": 22.87
+      },
+      "age_40_64": {
+        "count": 1108,
+        "pct": 39.6
+      },
+      "age_65_up": {
+        "count": 746,
+        "pct": 26.66
+      }
+    }
+  },
+  "金山區三界里": {
+    "district": "金山區",
+    "village": "三界里",
+    "total_valid": 392,
+    "candidates": {
+      "彭立信": {
+        "votes": 8,
+        "percentage": 2.04
+      },
+      "周雅玲": {
+        "votes": 138,
+        "percentage": 35.2
+      },
+      "廖先翔": {
+        "votes": 67,
+        "percentage": 17.09
+      },
+      "白珮茹": {
+        "votes": 98,
+        "percentage": 25.0
+      },
+      "黃瑞傳": {
+        "votes": 39,
+        "percentage": 9.95
+      },
+      "張錦豪": {
+        "votes": 42,
+        "percentage": 10.71
+      }
+    },
+    "age_structure": {
+      "population_total": 656,
+      "age_20_39": {
+        "count": 121,
+        "pct": 18.45
+      },
+      "age_40_64": {
+        "count": 313,
+        "pct": 47.71
+      },
+      "age_65_up": {
+        "count": 158,
+        "pct": 24.09
+      }
+    }
+  },
+  "金山區五湖里": {
+    "district": "金山區",
+    "village": "五湖里",
+    "total_valid": 1040,
+    "candidates": {
+      "彭立信": {
+        "votes": 23,
+        "percentage": 2.21
+      },
+      "周雅玲": {
+        "votes": 567,
+        "percentage": 54.52
+      },
+      "廖先翔": {
+        "votes": 103,
+        "percentage": 9.9
+      },
+      "白珮茹": {
+        "votes": 168,
+        "percentage": 16.15
+      },
+      "黃瑞傳": {
+        "votes": 45,
+        "percentage": 4.33
+      },
+      "張錦豪": {
+        "votes": 134,
+        "percentage": 12.88
+      }
+    },
+    "age_structure": {
+      "population_total": 1831,
+      "age_20_39": {
+        "count": 489,
+        "pct": 26.71
+      },
+      "age_40_64": {
+        "count": 770,
+        "pct": 42.05
+      },
+      "age_65_up": {
+        "count": 344,
+        "pct": 18.79
+      }
+    }
+  },
+  "金山區兩湖里": {
+    "district": "金山區",
+    "village": "兩湖里",
+    "total_valid": 236,
+    "candidates": {
+      "彭立信": {
+        "votes": 8,
+        "percentage": 3.39
+      },
+      "周雅玲": {
+        "votes": 100,
+        "percentage": 42.37
+      },
+      "廖先翔": {
+        "votes": 39,
+        "percentage": 16.53
+      },
+      "白珮茹": {
+        "votes": 43,
+        "percentage": 18.22
+      },
+      "黃瑞傳": {
+        "votes": 2,
+        "percentage": 0.85
+      },
+      "張錦豪": {
+        "votes": 44,
+        "percentage": 18.64
+      }
+    },
+    "age_structure": {
+      "population_total": 406,
+      "age_20_39": {
+        "count": 102,
+        "pct": 25.12
+      },
+      "age_40_64": {
+        "count": 179,
+        "pct": 44.09
+      },
+      "age_65_up": {
+        "count": 88,
+        "pct": 21.67
+      }
+    }
+  },
+  "金山區六股里": {
+    "district": "金山區",
+    "village": "六股里",
+    "total_valid": 458,
+    "candidates": {
+      "彭立信": {
+        "votes": 10,
+        "percentage": 2.18
+      },
+      "周雅玲": {
+        "votes": 215,
+        "percentage": 46.94
+      },
+      "廖先翔": {
+        "votes": 39,
+        "percentage": 8.52
+      },
+      "白珮茹": {
+        "votes": 104,
+        "percentage": 22.71
+      },
+      "黃瑞傳": {
+        "votes": 14,
+        "percentage": 3.06
+      },
+      "張錦豪": {
+        "votes": 76,
+        "percentage": 16.59
+      }
+    },
+    "age_structure": {
+      "population_total": 718,
+      "age_20_39": {
+        "count": 182,
+        "pct": 25.35
+      },
+      "age_40_64": {
+        "count": 310,
+        "pct": 43.18
+      },
+      "age_65_up": {
+        "count": 150,
+        "pct": 20.89
+      }
+    }
+  },
+  "金山區和平里": {
+    "district": "金山區",
+    "village": "和平里",
+    "total_valid": 232,
+    "candidates": {
+      "彭立信": {
+        "votes": 6,
+        "percentage": 2.59
+      },
+      "周雅玲": {
+        "votes": 81,
+        "percentage": 34.91
+      },
+      "廖先翔": {
+        "votes": 59,
+        "percentage": 25.43
+      },
+      "白珮茹": {
+        "votes": 39,
+        "percentage": 16.81
+      },
+      "黃瑞傳": {
+        "votes": 9,
+        "percentage": 3.88
+      },
+      "張錦豪": {
+        "votes": 38,
+        "percentage": 16.38
+      }
+    },
+    "age_structure": {
+      "population_total": 474,
+      "age_20_39": {
+        "count": 109,
+        "pct": 23.0
+      },
+      "age_40_64": {
+        "count": 212,
+        "pct": 44.73
+      },
+      "age_65_up": {
+        "count": 106,
+        "pct": 22.36
+      }
+    }
+  },
+  "金山區大同里": {
+    "district": "金山區",
+    "village": "大同里",
+    "total_valid": 362,
+    "candidates": {
+      "彭立信": {
+        "votes": 9,
+        "percentage": 2.49
+      },
+      "周雅玲": {
+        "votes": 148,
+        "percentage": 40.88
+      },
+      "廖先翔": {
+        "votes": 57,
+        "percentage": 15.75
+      },
+      "白珮茹": {
+        "votes": 80,
+        "percentage": 22.1
+      },
+      "黃瑞傳": {
+        "votes": 13,
+        "percentage": 3.59
+      },
+      "張錦豪": {
+        "votes": 55,
+        "percentage": 15.19
+      }
+    },
+    "age_structure": {
+      "population_total": 729,
+      "age_20_39": {
+        "count": 175,
+        "pct": 24.01
+      },
+      "age_40_64": {
+        "count": 317,
+        "pct": 43.48
+      },
+      "age_65_up": {
+        "count": 172,
+        "pct": 23.59
+      }
+    }
+  },
+  "金山區永興里": {
+    "district": "金山區",
+    "village": "永興里",
+    "total_valid": 364,
+    "candidates": {
+      "彭立信": {
+        "votes": 6,
+        "percentage": 1.65
+      },
+      "周雅玲": {
+        "votes": 178,
+        "percentage": 48.9
+      },
+      "廖先翔": {
+        "votes": 18,
+        "percentage": 4.95
+      },
+      "白珮茹": {
+        "votes": 89,
+        "percentage": 24.45
+      },
+      "黃瑞傳": {
+        "votes": 8,
+        "percentage": 2.2
+      },
+      "張錦豪": {
+        "votes": 65,
+        "percentage": 17.86
+      }
+    },
+    "age_structure": {
+      "population_total": 591,
+      "age_20_39": {
+        "count": 116,
+        "pct": 19.63
+      },
+      "age_40_64": {
+        "count": 262,
+        "pct": 44.33
+      },
+      "age_65_up": {
+        "count": 164,
+        "pct": 27.75
+      }
+    }
+  },
+  "金山區清泉里": {
+    "district": "金山區",
+    "village": "清泉里",
+    "total_valid": 422,
+    "candidates": {
+      "彭立信": {
+        "votes": 5,
+        "percentage": 1.18
+      },
+      "周雅玲": {
+        "votes": 149,
+        "percentage": 35.31
+      },
+      "廖先翔": {
+        "votes": 66,
+        "percentage": 15.64
+      },
+      "白珮茹": {
+        "votes": 77,
+        "percentage": 18.25
+      },
+      "黃瑞傳": {
+        "votes": 68,
+        "percentage": 16.11
+      },
+      "張錦豪": {
+        "votes": 57,
+        "percentage": 13.51
+      }
+    },
+    "age_structure": {
+      "population_total": 874,
+      "age_20_39": {
+        "count": 220,
+        "pct": 25.17
+      },
+      "age_40_64": {
+        "count": 360,
+        "pct": 41.19
+      },
+      "age_65_up": {
+        "count": 198,
+        "pct": 22.65
+      }
+    }
+  },
+  "金山區磺港里": {
+    "district": "金山區",
+    "village": "磺港里",
+    "total_valid": 849,
+    "candidates": {
+      "彭立信": {
+        "votes": 11,
+        "percentage": 1.3
+      },
+      "周雅玲": {
+        "votes": 415,
+        "percentage": 48.88
+      },
+      "廖先翔": {
+        "votes": 54,
+        "percentage": 6.36
+      },
+      "白珮茹": {
+        "votes": 119,
+        "percentage": 14.02
+      },
+      "黃瑞傳": {
+        "votes": 7,
+        "percentage": 0.82
+      },
+      "張錦豪": {
+        "votes": 243,
+        "percentage": 28.62
+      }
+    },
+    "age_structure": {
+      "population_total": 1861,
+      "age_20_39": {
+        "count": 406,
+        "pct": 21.82
+      },
+      "age_40_64": {
+        "count": 877,
+        "pct": 47.13
+      },
+      "age_65_up": {
+        "count": 369,
+        "pct": 19.83
+      }
+    }
+  },
+  "金山區美田里": {
+    "district": "金山區",
+    "village": "美田里",
+    "total_valid": 2137,
+    "candidates": {
+      "彭立信": {
+        "votes": 49,
+        "percentage": 2.29
+      },
+      "周雅玲": {
+        "votes": 1032,
+        "percentage": 48.29
+      },
+      "廖先翔": {
+        "votes": 272,
+        "percentage": 12.73
+      },
+      "白珮茹": {
+        "votes": 367,
+        "percentage": 17.17
+      },
+      "黃瑞傳": {
+        "votes": 48,
+        "percentage": 2.25
+      },
+      "張錦豪": {
+        "votes": 369,
+        "percentage": 17.27
+      }
+    },
+    "age_structure": {
+      "population_total": 4441,
+      "age_20_39": {
+        "count": 1300,
+        "pct": 29.27
+      },
+      "age_40_64": {
+        "count": 1814,
+        "pct": 40.85
+      },
+      "age_65_up": {
+        "count": 630,
+        "pct": 14.19
+      }
+    }
+  },
+  "金山區萬壽里": {
+    "district": "金山區",
+    "village": "萬壽里",
+    "total_valid": 296,
+    "candidates": {
+      "彭立信": {
+        "votes": 5,
+        "percentage": 1.69
+      },
+      "周雅玲": {
+        "votes": 141,
+        "percentage": 47.64
+      },
+      "廖先翔": {
+        "votes": 29,
+        "percentage": 9.8
+      },
+      "白珮茹": {
+        "votes": 52,
+        "percentage": 17.57
+      },
+      "黃瑞傳": {
+        "votes": 9,
+        "percentage": 3.04
+      },
+      "張錦豪": {
+        "votes": 60,
+        "percentage": 20.27
+      }
+    },
+    "age_structure": {
+      "population_total": 489,
+      "age_20_39": {
+        "count": 124,
+        "pct": 25.36
+      },
+      "age_40_64": {
+        "count": 190,
+        "pct": 38.85
+      },
+      "age_65_up": {
+        "count": 116,
+        "pct": 23.72
+      }
+    }
+  },
+  "金山區西湖里": {
+    "district": "金山區",
+    "village": "西湖里",
+    "total_valid": 112,
+    "candidates": {
+      "彭立信": {
+        "votes": 1,
+        "percentage": 0.89
+      },
+      "周雅玲": {
+        "votes": 56,
+        "percentage": 50.0
+      },
+      "廖先翔": {
+        "votes": 7,
+        "percentage": 6.25
+      },
+      "白珮茹": {
+        "votes": 33,
+        "percentage": 29.46
+      },
+      "黃瑞傳": {
+        "votes": 0,
+        "percentage": 0.0
+      },
+      "張錦豪": {
+        "votes": 15,
+        "percentage": 13.39
+      }
+    },
+    "age_structure": {
+      "population_total": 180,
+      "age_20_39": {
+        "count": 33,
+        "pct": 18.33
+      },
+      "age_40_64": {
+        "count": 89,
+        "pct": 49.44
+      },
+      "age_65_up": {
+        "count": 48,
+        "pct": 26.67
+      }
+    }
+  },
+  "金山區豐漁里": {
+    "district": "金山區",
+    "village": "豐漁里",
+    "total_valid": 243,
+    "candidates": {
+      "彭立信": {
+        "votes": 5,
+        "percentage": 2.06
+      },
+      "周雅玲": {
+        "votes": 138,
+        "percentage": 56.79
+      },
+      "廖先翔": {
+        "votes": 28,
+        "percentage": 11.52
+      },
+      "白珮茹": {
+        "votes": 37,
+        "percentage": 15.23
+      },
+      "黃瑞傳": {
+        "votes": 6,
+        "percentage": 2.47
+      },
+      "張錦豪": {
+        "votes": 29,
+        "percentage": 11.93
+      }
+    },
+    "age_structure": {
+      "population_total": 564,
+      "age_20_39": {
+        "count": 125,
+        "pct": 22.16
+      },
+      "age_40_64": {
+        "count": 267,
+        "pct": 47.34
+      },
+      "age_65_up": {
+        "count": 95,
+        "pct": 16.84
+      }
+    }
+  },
+  "金山區重和里": {
+    "district": "金山區",
+    "village": "重和里",
+    "total_valid": 541,
+    "candidates": {
+      "彭立信": {
+        "votes": 15,
+        "percentage": 2.77
+      },
+      "周雅玲": {
+        "votes": 243,
+        "percentage": 44.92
+      },
+      "廖先翔": {
+        "votes": 67,
+        "percentage": 12.38
+      },
+      "白珮茹": {
+        "votes": 84,
+        "percentage": 15.53
+      },
+      "黃瑞傳": {
+        "votes": 27,
+        "percentage": 4.99
+      },
+      "張錦豪": {
+        "votes": 105,
+        "percentage": 19.41
+      }
+    },
+    "age_structure": {
+      "population_total": 1214,
+      "age_20_39": {
+        "count": 292,
+        "pct": 24.05
+      },
+      "age_40_64": {
+        "count": 522,
+        "pct": 43.0
+      },
+      "age_65_up": {
+        "count": 314,
+        "pct": 25.86
+      }
+    }
+  },
+  "金山區金美里": {
+    "district": "金山區",
+    "village": "金美里",
+    "total_valid": 2253,
+    "candidates": {
+      "彭立信": {
+        "votes": 35,
+        "percentage": 1.55
+      },
+      "周雅玲": {
+        "votes": 1045,
+        "percentage": 46.38
+      },
+      "廖先翔": {
+        "votes": 316,
+        "percentage": 14.03
+      },
+      "白珮茹": {
+        "votes": 443,
+        "percentage": 19.66
+      },
+      "黃瑞傳": {
+        "votes": 53,
+        "percentage": 2.35
+      },
+      "張錦豪": {
+        "votes": 361,
+        "percentage": 16.02
+      }
+    },
+    "age_structure": {
+      "population_total": 5564,
+      "age_20_39": {
+        "count": 1639,
+        "pct": 29.46
+      },
+      "age_40_64": {
+        "count": 2310,
+        "pct": 41.52
+      },
+      "age_65_up": {
+        "count": 892,
+        "pct": 16.03
+      }
+    }
+  }
+}
