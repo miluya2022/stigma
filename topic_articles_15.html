@@ -187,6 +187,144 @@
             .topic-header { font-size: 1.8rem; }
             .confidence-indicator { margin-left: 0; }
         }
+
+        /* 排序與搜尋工具列 */
+        .toolbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            padding: 14px 24px;
+            border-radius: 16px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+            border: 1px solid var(--border-color);
+            position: sticky;
+            top: -40px; /* 貼在 main-content 最上方 */
+            z-index: 100;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .search-group {
+            position: relative;
+            display: flex;
+            align-items: center;
+            flex: 1;
+            max-width: 400px;
+            min-width: 250px;
+            background: white;
+            border: 1px solid var(--border-color);
+            border-radius: 10px;
+            padding: 6px 12px;
+            transition: all 0.2s ease;
+        }
+        .search-group:focus-within {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+        }
+        .search-icon {
+            font-size: 1rem;
+            color: var(--text-muted);
+            margin-right: 8px;
+            user-select: none;
+        }
+        #search-input {
+            border: none;
+            outline: none;
+            width: 100%;
+            font-size: 0.95rem;
+            color: var(--text-main);
+            background: transparent;
+        }
+        .search-clear-btn {
+            border: none;
+            background: transparent;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 0.9rem;
+            padding: 2px 6px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: background-color 0.2s;
+        }
+        .search-clear-btn:hover {
+            background-color: #f3f4f6;
+            color: var(--text-main);
+        }
+        .sort-group {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .sort-title {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            font-weight: 600;
+        }
+        .sort-btn {
+            background-color: white;
+            border: 1px solid var(--border-color);
+            color: var(--text-main);
+            padding: 8px 16px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            white-space: nowrap;
+        }
+        .sort-btn:hover {
+            border-color: var(--primary-color);
+            color: var(--primary-color);
+            background-color: #eff6ff;
+            transform: translateY(-1px);
+        }
+        .sort-btn.active {
+            background-color: var(--primary-color);
+            color: white;
+            border-color: var(--primary-color);
+            box-shadow: 0 4px 10px rgba(37, 99, 235, 0.2);
+        }
+        .sort-btn:active {
+            transform: translateY(0);
+        }
+        /* 當搜尋不到結果時的提示樣式 */
+        .no-results-msg {
+            text-align: center;
+            padding: 60px 20px;
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            background: white;
+            border-radius: 16px;
+            border: 1px dashed var(--border-color);
+            margin-top: 20px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        @media (max-width: 768px) {
+            .toolbar {
+                top: 0;
+                padding: 12px 16px;
+                margin-bottom: 20px;
+                flex-direction: column;
+                align-items: stretch;
+                gap: 12px;
+            }
+            .search-group {
+                max-width: 100%;
+            }
+            .sort-group {
+                justify-content: center;
+            }
+        }
     </style>
 </head>
 <body>
@@ -274,6 +412,27 @@
     </div>
 
     <div class="main-content">
+        <!-- 排序與搜尋工具列 -->
+        <div class="toolbar">
+            <div class="search-group">
+                <span class="search-icon">🔍</span>
+                <input type="text" id="search-input" placeholder="搜尋標題、記者、內容..." oninput="applySearchFilter()">
+                <button id="search-clear-btn" class="search-clear-btn" onclick="clearSearch()" style="display: none;">✕</button>
+            </div>
+            <div class="sort-group">
+                <span class="sort-title">排序方式：</span>
+                <button id="sort-desc-btn" class="sort-btn" onclick="changeSortOrder('desc')">
+                    <span>📅 從近到遠</span>
+                </button>
+                <button id="sort-asc-btn" class="sort-btn active" onclick="changeSortOrder('asc')">
+                    <span>📅 從遠到近</span>
+                </button>
+                <button id="sort-match-btn" class="sort-btn" onclick="changeSortOrder('match')">
+                    <span>✨ 匹配度從高到低</span>
+                </button>
+            </div>
+        </div>
+
         <div id="topic-1" class="topic-section active">
 <h1 class="topic-header">再生能源政策</h1>
 
@@ -18059,6 +18218,8 @@ TASS協會理事長賴樹鑫說明，本次會展有大師論壇、產學合作�
     </div>
 
     <script>
+        let currentSortOrder = 'asc'; // 預設從遠到近 (最舊到最新)
+
         function openTopic(topicId) {
             // 隱藏所有文章區塊
             document.querySelectorAll('.topic-section').forEach(el => el.classList.remove('active'));
@@ -18069,12 +18230,181 @@ TASS協會理事長賴樹鑫說明，本次會展有大師論壇、產學合作�
             const targetSection = document.getElementById('topic-' + topicId);
             const targetBtn = document.getElementById('btn-' + topicId);
             
-            if (targetSection) targetSection.classList.add('active');
+            // 清除搜尋欄內容
+            const searchInput = document.getElementById('search-input');
+            if (searchInput) searchInput.value = '';
+            const clearBtn = document.getElementById('search-clear-btn');
+            if (clearBtn) clearBtn.style.display = 'none';
+
+            if (targetSection) {
+                targetSection.classList.add('active');
+                
+                // 移除先前的「找不到結果」提示
+                const oldNoResults = targetSection.querySelector('.no-results-msg');
+                if (oldNoResults) oldNoResults.remove();
+
+                // 切換主題時，自動套用目前的排序，並顯示所有文章
+                sortArticlesInActiveTopic();
+                const cards = targetSection.querySelectorAll('.article-card');
+                cards.forEach(card => card.style.display = '');
+            }
             if (targetBtn) targetBtn.classList.add('active');
             
             // 自動捲動到最上方
             document.querySelector('.main-content').scrollTop = 0;
         }
+
+        function changeSortOrder(order) {
+            currentSortOrder = order;
+            
+            // 更新排序按鈕的 active 狀態
+            document.querySelectorAll('.sort-btn').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            const activeBtn = document.getElementById(`sort-${order}-btn`);
+            if (activeBtn) {
+                activeBtn.classList.add('active');
+            }
+            
+            sortArticlesInActiveTopic();
+        }
+
+        function sortArticlesInActiveTopic() {
+            const activeSection = document.querySelector('.topic-section.active');
+            if (!activeSection) return;
+
+            const cards = Array.from(activeSection.querySelectorAll('.article-card'));
+            if (cards.length === 0) return;
+
+            cards.sort((a, b) => {
+                if (currentSortOrder === 'match') {
+                    const matchA = getArticleConfidence(a);
+                    const matchB = getArticleConfidence(b);
+                    return matchB - matchA; // 由高到低
+                } else {
+                    const dateA = getArticleDate(a);
+                    const dateB = getArticleDate(b);
+                    return currentSortOrder === 'asc' ? dateA - dateB : dateB - dateA;
+                }
+            });
+
+            // 依序重新附加卡片，不影響 topic-header 標題
+            cards.forEach(card => activeSection.appendChild(card));
+            
+            // 排序後套用搜尋過濾
+            applySearchFilter();
+        }
+
+        function getArticleDate(card) {
+            const metaItems = card.querySelectorAll('.meta-item');
+            for (const item of metaItems) {
+                if (item.textContent.includes('📅')) {
+                    const dateStr = item.textContent.replace('📅', '').trim();
+                    // 分割日期字串以應對 YYYY/MM/DD HH:MM 等格式
+                    const parts = dateStr.split(/[\s/:]+/);
+                    if (parts.length >= 3) {
+                        const year = parseInt(parts[0], 10);
+                        const month = parseInt(parts[1], 10) - 1;
+                        const day = parseInt(parts[2], 10);
+                        const hour = parts.length > 3 ? parseInt(parts[3], 10) : 0;
+                        const minute = parts.length > 4 ? parseInt(parts[4], 10) : 0;
+                        return new Date(year, month, day, hour, minute).getTime();
+                    }
+                    const date = new Date(dateStr);
+                    return isNaN(date.getTime()) ? 0 : date.getTime();
+                }
+            }
+            return 0;
+        }
+
+        function getArticleConfidence(card) {
+            const indicator = card.querySelector('.confidence-indicator');
+            if (indicator) {
+                const text = indicator.textContent;
+                const match = text.match(/[\d.]+/);
+                if (match) {
+                    return parseFloat(match[0]);
+                }
+            }
+            return 0;
+        }
+
+        function applySearchFilter() {
+            const query = document.getElementById('search-input').value.trim().toLowerCase();
+            const clearBtn = document.getElementById('search-clear-btn');
+            
+            if (clearBtn) {
+                clearBtn.style.display = query ? 'block' : 'none';
+            }
+
+            const activeSection = document.querySelector('.topic-section.active');
+            if (!activeSection) return;
+
+            const cards = activeSection.querySelectorAll('.article-card');
+            let visibleCount = 0;
+
+            cards.forEach(card => {
+                if (!query) {
+                    card.style.display = '';
+                    visibleCount++;
+                    return;
+                }
+
+                // 取得標題
+                const titleEl = card.querySelector('.article-title');
+                const title = titleEl ? titleEl.textContent.toLowerCase() : '';
+
+                // 取得記者名稱 (從帶有 ✍️ 的 meta-item 中提取)
+                let author = '';
+                const metaItems = card.querySelectorAll('.meta-item');
+                for (const item of metaItems) {
+                    if (item.textContent.includes('✍️')) {
+                        author = item.textContent.replace('✍️', '').trim().toLowerCase();
+                        break;
+                    }
+                }
+
+                // 取得內容
+                const contentEl = card.querySelector('.article-content');
+                const content = contentEl ? contentEl.textContent.toLowerCase() : '';
+
+                // 檢查是否符合搜尋條件
+                if (title.includes(query) || author.includes(query) || content.includes(query)) {
+                    card.style.display = '';
+                    visibleCount++;
+                } else {
+                    card.style.display = 'none';
+                }
+            });
+
+            // 處理「找不到結果」提示
+            let noResultsEl = activeSection.querySelector('.no-results-msg');
+            if (visibleCount === 0) {
+                if (!noResultsEl) {
+                    noResultsEl = document.createElement('div');
+                    noResultsEl.className = 'no-results-msg';
+                    noResultsEl.textContent = '🔍 沒有找到符合搜尋條件的文章';
+                    activeSection.appendChild(noResultsEl);
+                }
+            } else {
+                if (noResultsEl) {
+                    noResultsEl.remove();
+                }
+            }
+        }
+
+        function clearSearch() {
+            const searchInput = document.getElementById('search-input');
+            if (searchInput) {
+                searchInput.value = '';
+                applySearchFilter();
+            }
+        }
+
+        // 頁面載入後，針對初始啟用的 topic 進行排序
+        window.addEventListener('DOMContentLoaded', () => {
+            sortArticlesInActiveTopic();
+        });
     </script>
 </body>
 </html>
